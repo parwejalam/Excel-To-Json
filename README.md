@@ -13,4 +13,4 @@ From the root of the project, Run below command to install dependecies
 `node index.js`
 
 # Note 
-this will try to read excel file from "exceles/excelsheet name.xlsx",so firstly you have to create a folder named exceles under Excel-To-JSON folder then you have to put your excel file in it.
+this will try to read excel file from "exceles/excelsheet name.xlsx",so firstly you have to create a folder named exceles under Excel-To-JSON folder if its not availabe. then you have to put your excel file in it.
