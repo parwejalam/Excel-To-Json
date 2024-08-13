@@ -1,0 +1,25 @@
+{
+  "name": "excel-to-json",
+  "version": "1.0.0",
+  "description": "To conver eexcel file in to json file and create script for submit excel data in database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parwejalam/Excel-To-Json.git"
+  },
+  "author": "Parwej Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parwejalam/Excel-To-Json/issues"
+  },
+  "homepage": "https://github.com/parwejalam/Excel-To-Json#readme",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "fs": "^0.0.1-security"
+  }
+}
