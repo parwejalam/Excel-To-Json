@@ -4,7 +4,7 @@ const fs = require('fs');
 const vesselSheetName = 'Vessel Particlars ';
 
 const allData = excelToJson({
-    sourceFile: 'exceles/CAPE ELIANTO.xlsx',
+    sourceFile: 'exceles/ARICA BRIDGE.xlsx',
     header: {
         rows:1 ,// Skip the first row (likely a header row)
     },
@@ -56,7 +56,7 @@ for (let index = 0; index < vesselParticlars.length; index++) {
     }
 }
 // Write to vessel.sql
-fs.writeFile('sqls/vessel.sql', vesselSqls, function (err) {
+fs.writeFile('sqls/singleVessel.sql', vesselSqls, function (err) {
     if (err) throw err;
     console.log('Vessel Particlars Saved!');
 });
