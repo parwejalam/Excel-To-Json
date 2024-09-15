@@ -37,7 +37,7 @@ excelFiles.forEach((file) => {
         name: excelSheetName,
         columnToKey: {
           C: "sectioncode",
-          F: "title",
+          F: "sectiontitle",
         },
       },
     ],

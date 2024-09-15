@@ -52,6 +52,9 @@ excelFiles.forEach((file) => {
   version = "2.0";
   createdby = "11111111-1111-1111-1111-111111111111";
   modifiedby = "11111111-1111-1111-1111-111111111111";
+  chapterId = '';
+  sectionId = '';
+  questionId = '';
 
   // Generate SQL for each row of data
   excelData.forEach((item) => {
